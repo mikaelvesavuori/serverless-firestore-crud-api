@@ -1,0 +1,12 @@
+{
+	"name": "serverless-firestore-crud-api",
+	"version": "0.1.0",
+	"description": "CRUD API using Serverless (Google Cloud Functions and Firestore)",
+	"main": "index.js",
+	"author": "Mikael Vesavuori",
+	"license": "MIT",
+	"dependencies": {
+		"@google-cloud/firestore": "^0.13.1",
+		"serverless-google-cloudfunctions": "^1.1.0"
+	}
+}
