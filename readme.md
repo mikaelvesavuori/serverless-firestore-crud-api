@@ -6,7 +6,7 @@ What's so sweet is that you don't need to set up any kind of server or other typ
 
 ## Get started
 
-1.  Make sure your credentials are in order (read more at [Google](https://serverless.com/framework/docs/providers/google/guide/credentials/))
+1.  Make sure your credentials are in order (read more at [Serverless](https://serverless.com/framework/docs/providers/google/guide/credentials/))
 2.  Create a `keyfile.json` in the root of the project (read more at [Google](https://cloud.google.com/iam/docs/creating-managing-service-account-keys))
 3.  Update `projectId` in the instance called `firestore`
 4.  Run `serverless deploy`
