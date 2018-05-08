@@ -3,7 +3,7 @@ service: crud-api
 provider:
   name: google
   runtime: nodejs
-  project: crud-api-f5154
+  project: your-project-name
   credentials: ~/.gcloud/keyfile.json
 
 plugins:
