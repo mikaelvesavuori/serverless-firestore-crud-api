@@ -23,6 +23,7 @@ exports.create = (request, response) => {
 		})
 		.catch(() => {
 			console.warn('Error creating!');
+			response.sendStatus(400);
 		});
 };
 
