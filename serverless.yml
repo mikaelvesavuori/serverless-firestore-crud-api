@@ -1,13 +1,19 @@
-service: crud-api
-
-provider:
-  name: google
-  runtime: nodejs
-  project: your-project-name
-  credentials: ~/.gcloud/keyfile.json
+service:
+  name: firestorecrudapi
 
 plugins:
   - serverless-google-cloudfunctions
+
+provider:
+  name: google
+  region: europe-west1
+
+  project: "{PROJECT_ID}"
+  credentials: ~/.gcloud/{KEYFILE}.json
+
+  runtime: nodejs10
+  memorySize: 1024
+  timeout: 10s
 
 package:
   exclude:
@@ -20,16 +26,20 @@ functions:
   create:
     handler: create
     events:
-      - http: path
+      - http: create
+        method: POST
   read:
     handler: read
     events:
-      - http: path
+      - http: read
+        method: GET
   update:
     handler: update
     events:
-      - http: path
+      - http: update
+        method: POST
   delete:
     handler: delete
     events:
-      - http: path
+      - http: delete
+        method: POST
