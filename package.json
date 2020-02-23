@@ -6,7 +6,7 @@
   "author": "Mikael Vesavuori",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/firestore": "^3.1.0",
+    "@google-cloud/firestore": "^3.4.1",
     "serverless-google-cloudfunctions": "^2.3.3"
   }
 }
