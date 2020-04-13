@@ -788,10 +788,10 @@ semver@^6.0.0, semver@^6.2.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-serverless-google-cloudfunctions@^2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/serverless-google-cloudfunctions/-/serverless-google-cloudfunctions-2.3.3.tgz#61d2d505d4b367cca0bdc730439a155a91110cd3"
-  integrity sha512-q4pmPXFVj3KxRdj5JI9iBr1tvny8ws7jr2ktayMj37Yw4AY0gizcQkSP07qtQKsiMPJ2e41y937OYK+qfpdeqQ==
+serverless-google-cloudfunctions@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/serverless-google-cloudfunctions/-/serverless-google-cloudfunctions-2.4.0.tgz#77a4813a194dd76032bd5e45c1c3cf0fbfd36a02"
+  integrity sha512-nuq550JJHMeWdAYoCxJ2hmOV35XRcEDCIrW2bnv1UQ1T/F5udPnjWiqkUcA/nRNkKFUjOKr667R/M/ez+r77PQ==
   dependencies:
     async "^2.6.3"
     bluebird "^3.5.5"
