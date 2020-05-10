@@ -7,6 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "@google-cloud/firestore": "^3.4.1",
-    "serverless-google-cloudfunctions": "^2.4.0"
-  }
+    "serverless-google-cloudfunctions": "^2.4.0",
+    "snyk": "^1.316.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
