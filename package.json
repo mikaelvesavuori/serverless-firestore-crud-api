@@ -1,18 +1,12 @@
 {
   "name": "serverless-firestore-crud-api",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CRUD API using Serverless (Google Cloud Functions and Firestore)",
   "main": "index.js",
   "author": "Mikael Vesavuori",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/firestore": "^3.7.3",
-    "serverless-google-cloudfunctions": "^2.4.3",
-    "snyk": "^1.316.2"
-  },
-  "scripts": {
-    "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect"
-  },
-  "snyk": true
+    "@google-cloud/firestore": "^4.2.0",
+    "serverless-google-cloudfunctions": "^3.1.1"
+  }
 }
